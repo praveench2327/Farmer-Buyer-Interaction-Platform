@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farm Market Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Farm Market Dashboard</h1>
+        </header>
+
+        <section class="market-info">
+            <h2>Market Information</h2>
+            <div class="market-details">
+                <h3>Nearby Market Contact</h3>
+                <p>Location: Guntur Market</p>
+                <p>Contact: +91 9234567890</p>
+                <p>Address: Narasaraopet road, Guntur</p>
+
+                <h3>Current Market Prices</h3>
+                <ul>
+                    <li>Tomatoes: 20.50/kg</li>
+                    <li>Corn: 18.80/kg</li>
+                    <li>Potatoes: 10.20/kg</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="product-listing">
+            <h2>List Your Products</h2>
+            <form action="submit_product.html" method="get">
+                <label for="product-name">Product Name</label>
+                <input type="text" id="product-name" name="product-name" required>
+
+                <label for="product-quality">Quality</label>
+                <input type="text" id="product-quality" name="product-quality" required>
+
+                <label for="product-quantity">Quantity (kg)</label>
+                <input type="number" id="product-quantity" name="product-quantity" required>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+    </div>
+</body>
+</html>

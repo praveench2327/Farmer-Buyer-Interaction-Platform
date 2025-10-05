@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial;
+    background-color: whitesmoke;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+header {
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    margin-bottom: 70px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+
+.sign-in {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sign-in h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sign-in form {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-in label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.sign-in input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.sign-in button {
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.sign-in button:hover {
+    background-color: #45a049;
+}
+
+
+.market-info {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.market-details h3 {
+    margin-top: 20px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.market-details ul {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.market-details ul li {
+    font-size: 1.1rem;
+}
+
+
+.product-listing {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.product-listing h2 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.product-listing form {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-listing label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.product-listing input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.product-listing button {
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.product-listing button:hover {
+    background-color: #45a049;
+}
+
+
+.product-details {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.product-details a {
+    text-decoration: none;
+    color: #4CAF50;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
